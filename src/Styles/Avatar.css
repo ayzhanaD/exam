@@ -1,0 +1,55 @@
+.nav{
+    height: 6vh;
+    width: 100%;
+    background-color:lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.home{
+    box-sizing: border-box;
+    height: 94vh;
+    width: 100%;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    height: 50%;
+    width: 50%;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 40px;
+    margin-bottom: 45px;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 6em;
+    height: 2.5em;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    box-shadow: 2px 3px 5px grey;
+    border-radius: 15px;
+    border: none;
+    transition: 0.2s;
+}
+button:active{
+    box-shadow: none;
+}
+#gen{
+    background-color: #187266;
+    color: white;
+}
+
